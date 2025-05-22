@@ -9,7 +9,6 @@ name: Create Release
 
 jobs:
   create-release:
-    if: github.repository_owner == 'openmrs'
     name: Create Release
     runs-on: ubuntu-latest
     
