@@ -32,7 +32,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.ref_name }}
-          release_name: ${{ github.ref_name }}
           body: |
             ${{ steps.create-release-notes.outputs.changelog }}
           draft: false
